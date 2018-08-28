@@ -1,0 +1,107 @@
+$color_orange: #ff6e3a
+
+
+  
+
+*
+  font-family: 微軟正黑體
+  // border: 1px solid gray
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // section#section_future
+  //   display: block
+    
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold
+
+body
+  height: 1000px
+
+nav.navbar
+  transition: 0.5s
+  
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: transparent
+  a
+    color: black
+    transition: 0.5s
+    &:hover
+      color: $color_orange
+  
+header.jumbotron
+  text-align: center
+  background-image: url(../img/header.jpg)
+  background-size: cover
+  background-size: cover
+  background-attachment: fixed
+  color: rgba($color_orange,.800)
+  margin-bottom: 0
+  .container
+    padding: 200px 0 
+  hr
+    max-width: 50px
+    border: 2px solid $color_orange
+section
+  padding: 50px 0
+
+section#section_ask
+  background-color: $color_orange
+  h2
+    margin-top: 130px
+    padding: 0 px
+  .img
+    background-image: url(https://media.istockphoto.com/vectors/hand-drawn-illustration-of-cat-line-art-sketch-style-of-sitting-white-vector-id923256248)
+    height: 350px
+    background-size: cover
+    background-position: center center
+    mix-blend-mode: multiply
+  
+section#section_about
+  .img_wrap
+    height: 200px
+    overflow: hidden
+  img
+    width: 100%
+    
+section#section_story
+  background-color: black
+  color: white
+  padding: 0
+  .col-sm-5
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwR48ijHa1B5dJ8hXs2P7BQXVhq9g7qH38vehT2_fuWgcA00euFg)
+    height: 350px
+    background-size: cover
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+    .col-sm-12.features
+      margin: 30px 0
+      
+section#section_future
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .col-sm-6.feature
+    padding-top: 10px
+    padding-bottom: 10px
+
+footer.jumbotron
+  text-align: center
+  background-image: url(../img/header.jpg)
+  background-size: cover
+  background-attachment: fixed
+  color: rgba($color_orange,.800)
+  margin-bottom: 0
+  .container
+    padding: 60px 0 
+  hr
+    max-width: 50px
+    border: 2px solid $color_orange
+  input
+    background-color: transparent
+    max-width: 300px
+    margin: 0 auto
